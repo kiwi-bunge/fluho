@@ -1,0 +1,24 @@
+main {
+    color: white;
+    padding: 0 15vw;
+}
+
+.aboutSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vw 0;
+}
+
+.aboutSection img {
+    width: 4vw;
+}
+
+.aboutSection h1 {
+    margin: 2vw 0;
+}
+
+.aboutSection p {
+    text-align: center;
+    padding: 0 15vw;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Styles--->
+    <link rel="stylesheet" href="bodyStyles.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="mainStyles.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.css">
+
+    <!---Fonts--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+</head>
+
+<body>
+    <video id="backgroundVideo" autoplay loop muted poster="">
+        <source src="http://drive.google.com/uc?export=view&id=1v2chESggC75g9PgxiEG93rFQInMChyEI">
+    </video>
+
+    <header>
+        <a href="http://" target="_blank"><img
+                src="http://drive.google.com/uc?export=view&id=1i6NLtyfof9nzxp8fsNjFp7rXvaenfsio" alt="main-logo"></a>
+        <nav>
+            <ul>
+                <li><a href="http://" target="_blank" rel="noopener     noreferrer">Home</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Contact</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">0434653445</a></li>
+                <a href="http://" target="_blank" rel="noopener noreferrer"><button>Get In Touch</button></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="aboutSection" id="aboutUs">
+            <img src="information-white.png" alt="info-icon">
+            <h1>About Us</h1>
+            <p>We create content. We create shows.
+                Guido runs the company and gets help from the most talented professionals who between them, have decades
+                of television and media experience. We approach every video as a partnership with our customers. We are
+                dedicated for and to the client. We offer video solutions to suit all life cycles of business, it is
+                time for your business to take the first step into video production.</p>
+        </section>
+
+        <section class="sliderSection">
+            <div class="slider">
+                <div class="slideTrack">
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1r7HiFKabC96qhIXxw1PF1TNBAl-Do2aA">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1fsXU0LgmdsdTi1uD3vl-WJDzITJx5J0_">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=14_1G71sy8r54DVEF9h7nLT9srnsGyh-v">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1Y0TqOFzE6XXIQBgmNy11veTkD5FTJXw7" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=12UkdjuFpt_jgpBjPUUHn4bWOP_FJkF6-" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1YNmTAFqzs07E0U8YFjndJJKgX3bpSJaD" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=10bqNzdZ_5ik_WQKB__xFltitXuUN9R8u" alt="">
+                    </div>
+
+                    <!-- Same images (doubled) -->
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1r7HiFKabC96qhIXxw1PF1TNBAl-Do2aA">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1fsXU0LgmdsdTi1uD3vl-WJDzITJx5J0_">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=14_1G71sy8r54DVEF9h7nLT9srnsGyh-v">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1Y0TqOFzE6XXIQBgmNy11veTkD5FTJXw7" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=12UkdjuFpt_jgpBjPUUHn4bWOP_FJkF6-" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=1YNmTAFqzs07E0U8YFjndJJKgX3bpSJaD" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="http://drive.google.com/uc?export=view&id=10bqNzdZ_5ik_WQKB__xFltitXuUN9R8u" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBoll6iyltUn6j5K9QCVW33D6YYNn2cx40",
+            authDomain: "fluho-e0c91.firebaseapp.com",
+            projectId: "fluho-e0c91",
+            storageBucket: "fluho-e0c91.appspot.com",
+            messagingSenderId: "440753285025",
+            appId: "1:440753285025:web:40d8587b7cedcdfb0f4de0"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+    </script>
+
+</body>
+
+</html>
