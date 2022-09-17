@@ -1,24 +1,150 @@
 main {
     color: white;
-    padding: 0 15vw;
 }
+
+/* About Us */
 
 .aboutSection {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5vw 0;
+    margin: 100px 0;
 }
 
 .aboutSection img {
-    width: 4vw;
+    width: 50px;
+    margin-top: 50px;
 }
 
 .aboutSection h1 {
-    margin: 2vw 0;
+    margin: 35px 0;
+    font-size: 40px;
 }
 
 .aboutSection p {
+    margin: 50px 380px;
     text-align: center;
-    padding: 0 15vw;
+    line-height: 30px;
+}
+
+/* What We Do */
+
+.whatWeDo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.whatWeDo img {
+    width: 50px;
+    margin-top: 50px;
+}
+
+.whatWeDo h1 {
+    margin: 35px 0;
+    font-size: 40px;
+}
+
+.whatWeDo p {
+    text-align: center;
+    padding: 0 200px;
+    line-height: 30px;
+    margin: 25px 0;
+}
+
+/* Form */
+
+.formSection {
+    margin: 100px 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSection h1 {
+    margin: 35px 0;
+    font-size: 40px;
+}
+
+.formSection form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 50px;
+}
+
+form label,
+form input {
+    width: 700px;
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+form label {
+    padding: 10px 15px 10px 0;
+    margin: 0;
+}
+
+form input {
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+}
+
+form input::placeholder {
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.message {
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 15px 70px 15px;
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+.message::placeholder {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    font-family: 'Roboto'
+}
+
+.submitButton {
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    align-self: flex-end;
+    color: white;
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* Footer */
+
+footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px;
+}
+
+footer div {
+    margin: 5px;
+}
+
+.social a {
+    margin: 0 10px;
 }
